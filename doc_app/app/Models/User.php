@@ -25,6 +25,7 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'type',
         'email',
         'password',
     ];
@@ -58,4 +59,15 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+    
+    //this is to state that users has one relationship with doctor
+    //each user id refer to one doctor id
+    public function doctor(){
+        return $this->hasOne(Doctor::class,'doc_id');
+    }
+
+    //same to get user details
+    public function user_details(){
+        return $this->hasOne(UserDetails::class,'user_id');
+    }
 }
