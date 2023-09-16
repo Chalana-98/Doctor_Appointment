@@ -75,9 +75,9 @@ class _AuthPageState extends State<AuthPage> {
                 ),
               ),
               Config.spaceSmall,
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
+                children: [
                   SocialButton(social: 'google'),
                   SocialButton(social: 'apple'),
                 ],

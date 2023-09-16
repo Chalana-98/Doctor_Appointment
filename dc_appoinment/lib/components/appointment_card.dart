@@ -24,19 +24,19 @@ class _AppointmentCardState extends State<AppointmentCard> {
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
-              Row(
+              const Row(
                 children: [
-                  const CircleAvatar(
+                  CircleAvatar(
                     radius: 30,
                     backgroundImage: AssetImage('assets/doctor_1.jpg'),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     width: 10,
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
                         'Dr.Richard Tan',
                         style: TextStyle(color: Colors.white),

@@ -1,4 +1,4 @@
-#Sat Jul 15 21:52:45 IST 2023
+#Sat Sep 16 12:41:17 IST 2023
 base.0=E\:\\github\\doctor appoinment\\dc_appoinment\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
 path.0=classes.dex
+renamed.0=classes.dex
